@@ -1,0 +1,203 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #7099cb;
+    display: flex;
+}
+
+
+.sidebar {
+    width: 250px;
+    background: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #3a4b28;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #9ba260;
+    padding: 10px;
+    border: 2px;
+    margin: 2px;
+}
+
+.sidebar nav ul li a i {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.content {
+    margin-left: 270px;
+    padding: 60px;
+    color: white;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background: #00695c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    color: white;
+}
+
+/* Social Icons */
+.social-icons img {
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-outline {
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn:hover, .btn-outline:hover {
+    background: #004d40;
+    color: white;
+}
+
+.about-header {
+    background: #00695c;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.about-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.about-content {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.about-content p strong {
+    color: #00695c;
+}
+
+.experience-header {
+    background: #00695c;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.experience-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.experience-content {
+    margin-top: 20px;
+}
+
+.experience-card {
+    background: rgb(246, 244, 244);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-weight: bold;
+    color: #00695c;
+}
+
+.position {
+    font-weight: normal;
+    color: #0f0e0e;
+    font-size: 16px;
+}
+
+.experience-card ul {
+    padding-left: 20px;
+}
+
+.experience-card ul li {
+    color: #0f0e0e;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.experience-footer {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+}
